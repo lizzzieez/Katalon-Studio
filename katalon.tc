@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>katalon</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d3f636d2-cb65-4cdd-8c5d-6eeb598ba6a3</testCaseGuid>
-</TestCaseEntity>
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://docs.google.com/forms/d/e/1FAIpQLSeq8naEPofrOrOA0nxdGj6L7jqddI8xHMFIyl9ailFnfl-uTQ/viewform')
+
+WebUI.setText(findTestObject('Object Repository/New Folder/Page_QA test assignment/input__whsOnd zHQkBf'), 'Elizaveta')
+
+WebUI.setText(findTestObject('Object Repository/New Folder/Page_QA test assignment/input__whsOnd zHQkBf_1'), 'krylenkaaa@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/New Folder/Page_QA test assignment/div_drawing_AB7Lab Id5V1'))
